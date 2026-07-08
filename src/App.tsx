@@ -375,7 +375,7 @@ export default function App() {
   const [sliderItems, setSliderItems] = useState(() => [
     {
       id: 'elephant',
-      url: '/src/assets/images/assets/Elephant 3.jpg',
+      url: '/assets/Elephant 3.jpg',
       name: 'ELEPHANT',
       title: 'African Elephant Woodlands',
       location: 'Eastern Forest Trail',
@@ -383,7 +383,7 @@ export default function App() {
     },
     {
       id: 'tiger',
-      url: '/src/assets/images/assets/Tiger.jpg',
+      url: '/assets/Tiger.jpg',
       name: 'TIGER',
       title: 'Bengal Tiger Haven',
       location: 'Northern Shaded Caves',
@@ -391,7 +391,7 @@ export default function App() {
     },
     {
       id: 'cheetah',
-      url: '/src/assets/images/assets/Cheetah.jpg',
+      url: '/assets/Cheetah.jpg',
       name: 'CHEETAH',
       title: 'Zambian Cheetah Range',
       location: 'Western Savannah Plains',
@@ -399,7 +399,7 @@ export default function App() {
     },
     {
       id: 'eagle',
-      url: '/src/assets/images/assets/Eagle.jpg',
+      url: '/assets/Eagle.jpg',
       name: 'EAGLE',
       title: "Verreaux's Raptor Aviary",
       location: 'Cliffside Flight Canopy',
@@ -407,7 +407,7 @@ export default function App() {
     },
     {
       id: 'zebra',
-      url: '/src/assets/images/assets/Zebra.jpg',
+      url: '/assets/Zebra.jpg',
       name: 'ZEBRA',
       title: 'Plains Zebra Pasture',
       location: 'Central Grasslands',
@@ -415,7 +415,7 @@ export default function App() {
     },
     {
       id: 'rhino',
-      url: '/src/assets/images/assets/Rhino.jpg',
+      url: '/assets/Rhino.jpg',
       name: 'RHINOCEROS',
       title: 'Black Rhinoceros Walloy',
       location: 'Southern Thornbush Reserve',
@@ -423,7 +423,7 @@ export default function App() {
     },
     {
       id: 'glasshouse',
-      url: '/src/assets/images/assets/Glass House.png',
+      url: '/assets/Glass House.png',
       name: 'GLASS DOME',
       title: 'Great Glass Botanical Dome',
       location: 'North Greenhouse',
@@ -431,7 +431,7 @@ export default function App() {
     },
     {
       id: 'lotus',
-      url: '/src/assets/images/assets/pexels-on3sign-33612014.jpg',
+      url: '/assets/pexels-on3sign-33612014.jpg',
       name: 'LOTUS LAGOON',
       title: 'Sacred Water Lotus Lagoons',
       location: 'Central Water Garden',
@@ -1775,7 +1775,7 @@ export default function App() {
               >
                 <div className="aspect-square relative overflow-hidden flex-1 min-h-[140px]">
                   <img 
-                    src="/src/assets/images/assets/Tiger.jpg" 
+                    src="/assets/Tiger.jpg" 
                     alt="Bengal Tiger Haven" 
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                     referrerPolicy="no-referrer"
@@ -1796,7 +1796,7 @@ export default function App() {
               >
                 <div className="aspect-square relative overflow-hidden flex-1 min-h-[140px]">
                   <img 
-                    src="/src/assets/images/assets/Cheetah.jpg" 
+                    src="/assets/Cheetah.jpg" 
                     alt="Zambian Cheetah Range" 
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                     referrerPolicy="no-referrer"
@@ -2605,9 +2605,9 @@ export default function App() {
                   <div className="w-full md:w-1/3 aspect-[4/3] rounded-lg overflow-hidden border border-white/10 relative bg-black/20 flex-shrink-0">
                     <img
                       src={
-                        activeGardenRoute === 'mahogany' ? '/src/assets/images/assets/pexels-ralph-407274-2323411.jpg' :
-                        activeGardenRoute === 'cycad' ? '/src/assets/images/assets/pexels-on3sign-33612012.jpg' :
-                        '/src/assets/images/assets/pexels-magda-ehlers-pexels-33586007.jpg'
+                        activeGardenRoute === 'mahogany' ? '/assets/pexels-ralph-407274-2323411.jpg' :
+                        activeGardenRoute === 'cycad' ? '/assets/pexels-on3sign-33612012.jpg' :
+                        '/assets/pexels-magda-ehlers-pexels-33586007.jpg'
                       }
                       className="w-full h-full object-cover"
                       alt={activeGardenRoute}
@@ -2665,9 +2665,9 @@ export default function App() {
                   <div className="aspect-[16/10] w-full rounded-2xl overflow-hidden border border-white/15 relative bg-black/20 shadow-sm">
                     <img
                       src={
-                        picnicSpotName === 'lotus' ? '/src/assets/images/assets/pexels-on3sign-33612014.jpg' :
-                        picnicSpotName === 'giant' ? '/src/assets/images/assets/Garden main.jpg' :
-                        '/src/assets/images/assets/pexels-magda-ehlers-pexels-33586007.jpg'
+                        picnicSpotName === 'lotus' ? '/assets/pexels-on3sign-33612014.jpg' :
+                        picnicSpotName === 'giant' ? '/assets/Garden main.jpg' :
+                        '/assets/pexels-magda-ehlers-pexels-33586007.jpg'
                       }
                       className="w-full h-full object-cover transition-all duration-700 hover:scale-105"
                       alt={picnicSpotName}
@@ -2739,7 +2739,7 @@ export default function App() {
                     origin: 'Asia & East Africa',
                     status: 'Preserved',
                     tagColor: 'bg-emerald-950/80 text-emerald-300 border-emerald-900/40',
-                    img: '/src/assets/images/assets/Flower 1.png',
+                    img: '/assets/Flower 1.png',
                     desc: 'Floating on our central calm lagoons, these pristine lotuses reveal multi-layered pink petals at dawn.'
                   },
                   {
@@ -2748,7 +2748,7 @@ export default function App() {
                     origin: 'Tropical Biomes',
                     status: 'Ornamental',
                     tagColor: 'bg-amber-950/80 text-amber-300 border-amber-900/40',
-                    img: '/src/assets/images/assets/Flower 2.png',
+                    img: '/assets/Flower 2.png',
                     desc: 'Dazzling trumpet-shaped blooms that thrive along our main garden borders, attracting nectar-feeding sunbirds.'
                   },
                   {
@@ -2757,7 +2757,7 @@ export default function App() {
                     origin: 'Native Zambia',
                     status: 'Vulnerable',
                     tagColor: 'bg-rose-950/80 text-rose-300 border-rose-900/40',
-                    img: '/src/assets/images/assets/Flower 3.png',
+                    img: '/assets/Flower 3.png',
                     desc: 'A rare geophytic species protected inside the humid glass canopy dome, blooming with detailed pink and golden wings.'
                   },
                   {
@@ -2766,7 +2766,7 @@ export default function App() {
                     origin: 'Luangwa Valley',
                     status: 'Endangered',
                     tagColor: 'bg-purple-950/80 text-purple-300 border-purple-900/40',
-                    img: '/src/assets/images/assets/Flower 4.png',
+                    img: '/assets/Flower 4.png',
                     desc: 'Prehistoric slow-growing non-flowering evergreens preserving ancient plant histories since the dinosaur ages.'
                   }
                 ].map((specimen, idx) => (
