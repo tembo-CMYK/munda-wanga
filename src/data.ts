@@ -21,7 +21,7 @@ export const SPECIES_DATA: Species[] = [
     name: 'Zambian Cheetah',
     subtitle: 'Elusive Sprinters • Savannah Grassland',
     description: 'Rescued from habitat fragmentation, this magnificent male cheetah roams an extensive savannah run designed to encourage physical exercise and mock hunts.',
-    image: '/src/assets/images/assets/Cheetah.jpg',
+    image: '/assets/pexels-on3sign-33612012.jpg',
     tag: 'Big-cat moments'
   },
   {
@@ -29,7 +29,7 @@ export const SPECIES_DATA: Species[] = [
     name: 'African Bush Elephant',
     subtitle: 'Gentle Giants • Forest Woodland',
     description: 'Our orphaned bull elephant calf, recovering and thriving under specialised keeper supervision, enjoying daily mud baths and fresh acacia foliage.',
-    image: '/src/assets/images/assets/Elephant 3.jpg',
+    image: '/assets/pexels-simplydomz-33616034.jpg',
     tag: 'Easy routes'
   },
   {
@@ -37,7 +37,7 @@ export const SPECIES_DATA: Species[] = [
     name: 'Royal Bengal Tiger',
     subtitle: 'Rehabilitated Predator • Water Lagoon',
     description: 'Transferred under international conservation networks, our tiger explores deep water pools and shaded caves resembling its warm subtropical home.',
-    image: '/src/assets/images/assets/Tiger.jpg',
+    image: '/assets/pexels-saidamir-mukhitdinov-189549781-12105114.jpg',
     tag: 'Big-cat moments'
   },
   {
@@ -45,7 +45,7 @@ export const SPECIES_DATA: Species[] = [
     name: 'Black Rhinoceros',
     subtitle: 'Prehistoric Guardians • Thornbush Core',
     description: 'A key symbol of anti-poaching success in Zambia. Our black rhino enjoys a secure muddy wallow and dense brush foraging pathways.',
-    image: '/src/assets/images/assets/Rhino.jpg',
+    image: '/assets/pexels-mahmoud-yahyaoui-32046994.jpg',
     tag: 'Easy routes'
   },
   {
@@ -53,7 +53,7 @@ export const SPECIES_DATA: Species[] = [
     name: 'Plains Zebra',
     subtitle: 'Striped Wanderers • Grassland Plains',
     description: 'Highly sociable and communicative, our zebra herd wanders alongside impalas in a combined dry grassland pasture.',
-    image: '/src/assets/images/assets/Zebra.jpg',
+    image: '/assets/pexels-on3sign-33612014.jpg',
     tag: 'Easy routes'
   },
   {
@@ -61,7 +61,7 @@ export const SPECIES_DATA: Species[] = [
     name: 'Verreaux\'s Eagle',
     subtitle: 'Apex Avians • Raptor Canyon',
     description: 'Rescued with a healed wing fracture, this beautiful raptor lives in a high-domed flight aviary with rocky roosts overlooking the park.',
-    image: '/src/assets/images/assets/Eagle.jpg',
+    image: '/assets/pexels-sheng-lu-wu-241205014-15595980.jpg',
     tag: 'Birdlife trails'
   },
   {
@@ -69,7 +69,7 @@ export const SPECIES_DATA: Species[] = [
     name: 'African Rock Python',
     subtitle: 'Silent Constrictors • Tropical Canopy',
     description: 'Our giant rescued python rests securely within a simulated warm hollow tree block inside the glass terrarium canopy house.',
-    image: '/src/assets/images/assets/Python.jpg',
+    image: '/assets/pexels-olga-petrova-129200401-38007128.jpg',
     tag: 'Birdlife trails'
   }
 ];
